@@ -2,15 +2,6 @@ import Image from "next/image";
 
 import InstallPrompt from '../components/InstallPrompt';
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <InstallPrompt />
-    </>
-  );
-}
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
